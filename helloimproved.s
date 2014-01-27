@@ -5,7 +5,7 @@
   .globl main
 main:                    # main has to be a global label
   addu $s7, $0, $ra      # save the return address in a register
-                         # line xx, see the lab instructions
+                         
 	
 #------------Output the string "Hello, have a nice day." on a separate line 
   .data
